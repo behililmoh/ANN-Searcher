@@ -4,15 +4,16 @@ This project implémente a simple vector search engine in Python using hnswlib f
 
 🚀 Fonctionnalités
 
-    Automatic creation of an HNSW index à partir de text documents
+Automatic creation of an HNSW index à partir de text documents
 
-    Search for the most similar documents to a vector query
+Search for the most similar documents to a vector query
 
-    Save and load the index et les embeddings
+Save and load the index et les embeddings
 
-    Easy support for other types d'embeddings (OpenAI, Sentence Transformers, etc.)
+Easy support for other types d'embeddings (OpenAI, Sentence Transformers, etc.)
 
-    📦 Dépendances
+
+📦 Dépendances
 
 
 ```bash
@@ -42,7 +43,6 @@ for res in results:
     print(f"- ID: {res['id']} | Distance: {res['distance']:.3f} | Document: {res['document']}")
 
 
-```
 
 mon_projet/
 ├── vector_search.py
